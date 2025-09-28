@@ -1,0 +1,587 @@
+#Software{ 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(DS.jpg) ;   
+    background-size: cover;    
+     margin: 0;
+     padding: 10px;
+}
+
+h1{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: rgb(140, 65, 65);
+ text-align: center;
+  background-color: rgb(178, 227, 223);
+ position: relative;
+ padding: 10px 20px;
+ font-size: 33px;
+font-weight: bold;
+overflow: hidden;
+    text-shadow: 0 0 10px #9c325ade;
+    animation: brillo 1.5s infinite alternate;
+    from{ text-shadow: 0 0 10px #f04df9;}
+    to{text-shadow: 0 0 20px #ffffff;}
+}
+.DS{
+ font-family: sans-serif;
+ color: rgb(54, 52, 73);
+ font-size: 18px;
+}
+.Estilo{
+    display: inline-block;
+    white-space: nowrap;
+    animation: mover 15s linear infinite;
+}
+@keyframes mover {
+    0%{
+        left: 100%;
+    }
+    50%{
+        left:50%;
+        transform:translateX(-50%);
+    }
+100%{
+    left: -100%;
+}
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(142, 58, 89);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 32, 81);
+}
+b{
+    color: rgb(28, 0, 139);
+}
+.Software{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(135, 9, 9);
+}
+#ejemplos{
+ font-family:serif ;
+ color: crimson;
+ font-size: 20px;
+}
+.Nuevo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(123, 45, 45);
+    font-size: 20px;   
+}
+#DesarrolloS{
+ max-width: 1100px;
+  margin: 40px auto;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+
+
+
+
+#DesarrolloWeb{
+ max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(80, 118, 106, 0.8);
+  border-radius: 10px;
+}
+#desarrollo{
+    background-image: url(Web.jpg);   
+    background-size: cover;    
+     margin: 0;
+     padding: 10px;  
+}
+#WebDesarrollo{
+    color: #7c5913;
+}
+.Dw{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(148, 71, 121);
+    position: relative;
+ padding: 10px 20px;
+ font-size: 33px;
+font-weight: bold;
+overflow: hidden;
+ text-align: center;
+  background-color: rgb(156, 210, 244);
+ position: relative;
+ padding: 10px 20px;
+font-weight: bold;
+overflow: hidden;
+    text-shadow: 0 0 10px #7a1882de;
+    animation: brillo 1.5s infinite alternate;
+    from{ text-shadow: 0 0 10px #f04df9;}
+    to{text-shadow: 0 0 20px #ffffff;}
+}
+.Estilo{
+    display: inline-block;
+    white-space: nowrap;
+    animation: mover 15s linear infinite;
+}
+@keyframes mover {
+    0%{
+        left: 100%;
+    }
+    50%{
+        left:50%;
+        transform:translateX(-50%);
+    }
+100%{
+    left: -100%;
+}
+}
+.Web{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: rgb(109, 35, 27);
+  
+}
+.Lista{
+    font-family:sans-serif;
+    color: rgb(118, 28, 31);
+    font-size: 18px;
+}
+.Sitio{
+color: rgb(9, 15, 60);
+}
+
+
+
+
+#IngenieriaSoftware{
+ max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(66, 98, 117, 0.8);
+  border-radius: 20px;
+}
+#IngenieriaS{
+   position: relative;
+   z-index: 1;
+   color: white;
+   background-image: url(IS.webp);
+}
+.Ingenieria{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(151, 113, 54);
+    font-size: 25px;
+        display: inline-block;
+    white-space: nowrap;
+    animation: mover 15s linear infinite;
+    
+}
+.Is{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(254, 253, 255);
+       text-shadow: 0 0 10px #454434de;
+    animation: brillo 1.5s infinite alternate;
+    from{ text-shadow: 0 0 10px #7e7920;}
+    to{text-shadow: 0 0 20px #837404;}
+}
+
+.ing{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightsalmon;
+    font-size: 25px;
+}
+li{
+    color: rgb(34, 49, 80);
+    font-size: 18px;
+}
+@keyframes mover {
+    0%{
+        left: 100%;
+    }
+    50%{
+        left:50%;
+        transform:translateX(-50%);
+    }
+100%{
+    left: -100%;
+}
+}
+.InfIng{
+    font-family:Arial, Helvetica, sans-serif;
+color: rgb(27, 18, 44);
+}
+
+
+
+#RedesTelecomunicaciones{
+     max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(138, 138, 129, 0.8);
+  border-radius: 10px;
+}
+#Redes{
+    background-image: url(Redes.avif);
+    background-size: cover;
+    
+}
+.Bt{
+    color: rgb(193, 181, 168);
+}
+
+.RT{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(27, 28, 39);
+    font-size: 18px;
+}
+#Comunicaciones{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(109, 22, 22);
+    font-size: 20px;
+}
+.Componentes{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    color: rgb(56, 5, 42);
+}
+
+@keyframes mover {
+    0%{
+        left: 100%;
+    }
+    50%{
+        left:50%;
+        transform:translateX(-50%);
+    }
+100%{
+    left: -100%;
+}
+}
+.Clasi{
+    color: rgb(109, 35, 27);
+}
+.Info{
+    color: rgba(3, 3, 68, 0.758);
+    font-size: 19px;
+}
+
+
+
+#administracion{
+    background-image: url(Administracion.jpg);
+    background-size: cover;
+}
+ #AdministracionSistemas{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(135, 132, 132, 0.8);
+  border-radius: 10px;
+}
+.SubT{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(164, 22, 22);
+font-size: 20px;
+ border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+.Funcion{
+    color: #7c5913;
+}
+
+h2 {
+  color: #ffd580;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+#Hardware{
+background-image: url(Hardware.jpg);
+background-size: cover;
+}
+ #HardwareArquitectura{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(43, 41, 41, 0.8);
+  border-radius: 10px;
+}
+.Arq{
+    color: rgb(203, 26, 26);
+    font-size: 20px;
+}
+
+
+/* Párrafos */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.Dif{
+    color: #a09175;
+}
+
+
+
+
+
+
+#Ciberseguridad{
+    background-image: url(Ciberseguridad.jpg);
+    background-size: cover;
+}
+ #CiberseguridadH{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(29, 28, 28, 0.8);
+  border-radius: 10px;
+}
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+.Tub{
+    color: #ff9500;
+}
+.LC{
+color: rgb(188, 188, 242);
+font-size: 19px;
+}
+
+.SC{
+    color: rgb(244, 224, 201);
+}
+
+
+
+#Base{
+background-image: url(Base\ de\ Datos.jpg);
+background-size: cover;
+}
+#BaseDatos
+{
+    max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(62, 62, 62, 0.8);
+  border-radius: 10px;  
+}
+.Conte {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffd966;
+    margin-top: 25px;
+}
+
+
+
+/* Clase Lis: elementos de contenido */
+.Lis {
+    margin-left: 30px;
+    color: #d0e7ff;
+}
+.Lista{
+    color:cadetblue;
+}
+
+
+
+#Data{
+    background-image: url(Data.jpg);
+    background-size: cover;
+}
+#BigData
+{
+    max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(38, 40, 61, 0.8);
+  border-radius: 10px;  
+}
+.BD {
+  color: #ffd700;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.DA {
+  font-size: 1em;
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+.EQ {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #00ffd5;
+  margin-top: 20px;
+}
+
+.DQ {
+  color: #dddddd;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.Mano {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #cba269;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* Lista de características */
+.Uno {
+  background-color: #292d38;
+  border-left: 4px solid #00c3ff;
+  padding: 10px;
+  margin: 8px 0;
+  list-style: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+  color: #d0e7ff;
+}
+
+
+
+
+
+
+
+#Inteligencia{
+    background-image: url(Inteligencia.jpg);
+    background-size: cover;
+}
+#InteligenciaArtificial{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(13, 35, 30, 0.8);
+  border-radius: 10px;    
+}
+#IA {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Párrafos generales */
+.Mio {
+  color: #d2f0e4;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Títulos secundarios como secciones */
+.Yo {
+  font-size: 1.4em;
+  color: #e68200;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-left: 5px solid #c4c700;
+  padding-left: 10px;
+}
+.Han {
+  color: #b6d1ff;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+/* Ventajas tipo lista */
+.Jhope {
+  color: #1c87bc;
+  margin-left: 30px;
+  list-style: circle;
+  font-size: 1em;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+
+
+
+#Realidad{
+    background-image: url(Realidad.jpg);
+    background-size: cover;
+}
+#RealidadVirtual{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(67, 95, 92, 0.8);
+  border-radius: 10px;   
+}
+#Rv{
+    color: rgb(118, 21, 21);
+    font-size: 20px;
+}
+.Jeff{
+    color: #000000;
+}
+.Stile{
+color: rgb(255, 255, 255);
+}
+.New{
+    color: #68b994;
+}
+
+
+#Robotica{
+    background-image: url(Robotica.jpg);
+    background-size: cover;
+}
+#Roboticah{
+      max-width: 1100px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;   
+}
+.GD{
+    color: #bfb5a3;
+}
+.BB{
+    color: bisque;
+}
+.RM{
+    color: antiquewhite;
+}
+.SG{
+    color: gainsboro;
+}
